@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { getStatusBarHeight } from 'react-native-status-bar-height';
+import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { PersistGate } from 'reduxjs-toolkit-persist/integration/react'
 import {Provider} from 'react-redux';
@@ -27,7 +26,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingTop: getStatusBarHeight()
+    flex: 1
   },
 });

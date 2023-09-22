@@ -226,5 +226,17 @@ export default {
     "Sign Up Success": "Sign Up Success",
     "Please Input Your Password": "Please Input Your Password",
     "New password": "New password",
-
+    "welcome to Burabak": "Welcome to Burabak",
+    "Map": "Map",
+    "List": "List",
+    "What are you looking for?": "What are you looking for?",
+    "About": "About",
+    "Advert": "Advert",
+    "Main": "Main",
+    "Customer": "Customer",
+    "Executor": "Executor",
+    "Orders": "Orders",
+    "Chat": "Chat",
+    "Sign Up to Unleash all Possibilities": "Sign Up to Unleash all Possibilities",
+    
 }

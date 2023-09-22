@@ -14,7 +14,7 @@ import Link from '../../components/Link'
 import Button from '../../components/Button'
 import StepIndicator from '../../components/StepIndicator'
 import PinCodeInput from '../../components/PinCodeInput';
-import Switch from '../../components/Switch';
+import Switch from '../../components/GenderSwitch';
 
 import {
     setToken,

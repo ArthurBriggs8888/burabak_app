@@ -45,7 +45,7 @@ export default {
     "User Agreement": "User Agreement",
     "TO REACH US": "TO REACH US",
     "All Rights Reserved.": "All Rights Reserved.",
-    "Sign In": "Sign In123",
+    "Sign In": "Sign In",
     "Sign Up": "Sign Up",
     "How does this work": "How does this work",
     "About": "About",

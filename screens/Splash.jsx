@@ -62,28 +62,31 @@ const SplashScreen = ({navigation}) => {
         Poppins_900Black_Italic,
     });
 
-    useEffect(() => {
-        if(currentUserResponse !== null) {
-            if(!currentUserResponse.success) {
-                dispatch(setToken(null))
-                dispatch(setUser(null))
-                setTimeout(() => {
-                    navigation.replace('SignIn')
-                }, 2000);
-            } else {
-                setTimeout(() => {
-                    // navigation.replace('SignIn') //testing
-                    navigation.replace('Welcome') //check token
-                }, 2000)
-            }
-        }
-    }, [currentUserResponse])
+    // useEffect(() => {
+    //     if(currentUserResponse !== null) {
+    //         if(!currentUserResponse.success) {
+    //             dispatch(setToken(null))
+    //             dispatch(setUser(null))
+    //             setTimeout(() => {
+    //                 navigation.replace('SignIn')
+    //             }, 2000);
+    //         } else {
+    //             setTimeout(() => {
+    //                 navigation.replace('HomeScreen')
+    //             }, 2000)
+    //         }
+    //     }
+    // }, [currentUserResponse])
 
     useEffect(() => {
         if(fontsLoaded) {
-            if(Auth.user !== null && Auth.user.payload !== null && Auth.user.payload !== undefined && Auth.user.payload !== '') {
-                getCurrentUser(Auth.token.payload, getCurrentLanguage())
-            }
+            // if(Auth.user !== null && Auth.user.payload !== null && Auth.user.payload !== undefined && Auth.user.payload !== '') {
+            //     getCurrentUser(Auth.token.payload, getCurrentLanguage())
+            // }
+
+            setTimeout(() => {
+                navigation.replace('HomeScreen')
+            }, 2000)
         }
     }, [fontsLoaded])
 

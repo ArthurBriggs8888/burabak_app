@@ -12,5 +12,7 @@ export default {
     text2: '#25282D',
     executorBtn: '#D7EBA8',
     customerBtn: '#537501',
-    
+    icon: '#D8D8D8',
+    forground: '#638C01',
+    orange: '#FF8A00',
 }
